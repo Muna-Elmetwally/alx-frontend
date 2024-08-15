@@ -398,10 +398,11 @@
     }
     /* Section Latest news
         ============================= */
-    
+        @media screen and (max-width: 767px) {
     .section-latest-news .row {
         flex-direction: row-reverse;
     }
+}
     
     /* Section SERVICES
         ============================= */
